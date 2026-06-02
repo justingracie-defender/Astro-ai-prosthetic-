@@ -35,7 +35,7 @@ Astro is designed around natural-speed prosthetic control with conservative safe
 ## Repository Structure
 
 ```text
-astro-ai-prosthetics/
+Astro-ai-prosthetic-/
 ├── THE_ASTRO_LICENSE.md
 ├── docs/
 │   ├── RED_TEAM_REPORT.md
