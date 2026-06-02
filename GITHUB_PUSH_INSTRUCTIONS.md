@@ -15,18 +15,20 @@ The connected GitHub token in the current environment did not have permission to
 3. Send the new repository URL back to Manus.
 4. Manus can then push the existing local Git commit.
 
-## Option B — Push Locally Yourself
+## Option B — Push Locally Yourself From the ZIP
 
 From a machine with GitHub permissions, unzip the package and run:
 
 ```bash
 cd astro-prosthetics
+git init -b main
+git add .
+git commit -m "Initial Astro Prosthetics safety scaffold"
 git remote add origin https://github.com/justingracie-defender/astro-prosthetics.git
-git branch -M main
 git push -u origin main
 ```
 
-If `origin` already exists, run:
+If you already initialized Git and `origin` already exists, run:
 
 ```bash
 git remote set-url origin https://github.com/justingracie-defender/astro-prosthetics.git
