@@ -12,6 +12,7 @@ Astro treats AI-assisted prosthetic control as a **safety-critical human-worn ro
 | **No Direct AI Actuation** | AI output should never directly command hardware without passing deterministic validation. |
 | **Audit Logging** | Safety-relevant decisions should be logged for review. |
 | **Limp Over Lock** | Faults should bias toward compliant safe failure rather than rigid lock-up. |
+| **Inspectable AI** | Non-routine AI-assisted motion should preserve training influence, grounding evidence, and independent safety review. |
 
 ## Non-Goals
 

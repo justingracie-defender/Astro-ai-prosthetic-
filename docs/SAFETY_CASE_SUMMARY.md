@@ -9,6 +9,7 @@
 | Failure during use | Daily self-test, recalibration lockout, and Spine Ledger | Diagnostic logs and replayable fault traces. |
 | Environmental stress | Cold, heat, humidity, vibration, and interference validation | Environmental chamber reports and stress-test records. |
 | Overtrust or premature deployment | Clear warnings and review gates | README status, risk register, and release checklist. |
+| Black-box AI influence | Traceable training influence, semantic grounding, and independent safety channel | Article V and future Spine Ledger entries. |
 
 ## Residual Risk
 

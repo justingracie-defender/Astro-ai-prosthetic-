@@ -1,9 +1,10 @@
-# THE ASTRO LICENSE v8.1.4
+# THE ASTRO LICENSE v8.1.5
 
 **Constitutional Safety Standard for Prosthetic and Assistive Devices**  
-**Governed by:** LifeCore-16 Constitution v0.9.0
+**Governed by:** LifeCore-16 Constitution v0.9.0  
+**Updated:** 2026-06-02 — Added Lanier Principles
 
-This document is a project safety standard and governance statement for Astro — AI Prosthetics. It is not legal advice and should be reviewed by qualified counsel before being used as a formal software license.
+This document is a project safety standard and governance statement for Astro AI Prosthetics. It is not legal advice and should be reviewed by qualified counsel before being used as a formal software license.
 
 ## Article IV: Prosthetic Validation and Safe Failure
 
@@ -29,6 +30,31 @@ A short daily diagnostic should verify sensors, actuator limits, battery state, 
 
 ### 4.5 Spine Ledger
 
-Safety-relevant faults should be preserved in a tamper-evident trace suitable for replay and review. The ledger should include signals, decisions, denials, warnings, configuration versions, and supervisor outcomes.
+Safety-relevant faults should be preserved in a tamper-evident trace suitable for replay and review. The ledger should include signals, decisions, denials, warnings, configuration versions, supervisor outcomes, and inspectability records.
 
-> **Core Invariant:** Safety is hardware. The arm must survive Kingston winter before touching a person.
+## Article V: Lanier Principles — Inspectable AI
+
+### Purpose
+
+AI must not be treated as a black box when attached to a human body. It must show its work, remain grounded in training evidence, and accept independent verification before non-routine motion is allowed.
+
+### 5.1 Traceable Training Influence
+
+For any L2 or L3 action, the system should log the top five most influential training-data clusters, model exemplars, or retrieval neighborhoods that contributed to the decision. These records should be stored in the Spine Ledger for review.
+
+### 5.2 Semantic Grounding Check
+
+Before non-routine motion, the system should query the training or validation database for the closest ten relevant human examples. The motion may proceed only if the grounding check meets the configured confidence threshold and the safety supervisor independently approves.
+
+### 5.3 Multi-Factor Safety Channel
+
+All motion commands should require approval from two independent channels.
+
+| Channel | Role |
+|---|---|
+| **Channel 1: Primary AI + EMG Decoder** | Estimates user intent and proposes a motion profile. |
+| **Channel 2: Counterfactual Safety Estimator** | Separately checks force limits, face proximity, unsafe posture, and plausible adverse outcomes. |
+
+Both channels must approve before non-routine motion proceeds. A Channel 2 veto should trigger immediate limp mode or another reviewed safe state. A Sanctuary Key or equivalent operator safety control may manually invoke Channel 2 review.
+
+> **Core Invariant:** AI must explain itself, check reality, and accept a second opinion — especially when attached to a human body.
