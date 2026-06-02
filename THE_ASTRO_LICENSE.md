@@ -1,8 +1,8 @@
-# THE ASTRO LICENSE v8.1.5
+# THE ASTRO LICENSE v8.1.6
 
 **Constitutional Safety Standard for Prosthetic and Assistive Devices**  
-**Governed by:** LifeCore-16 Constitution v0.9.0  
-**Updated:** 2026-06-02 — Added Lanier Principles
+**Governed by:** LifeCore-16 Constitution v0.9.2  
+**Updated:** 2026-06-02 — Full Standards + Tiered Biomimetic Safety
 
 This document is a project safety standard and governance statement for Astro AI Prosthetics. It is not legal advice and should be reviewed by qualified counsel before being used as a formal software license.
 
@@ -58,3 +58,20 @@ All motion commands should require approval from two independent channels.
 Both channels must approve before non-routine motion proceeds. A Channel 2 veto should trigger immediate limp mode or another reviewed safe state. A Sanctuary Key or equivalent operator safety control may manually invoke Channel 2 review.
 
 > **Core Invariant:** AI must explain itself, check reality, and accept a second opinion — especially when attached to a human body.
+
+## Article VI: Preliminary Standards Mapping
+
+Design aligned with ISO 13482 (physical assistant robots), ISO 13485 principles, and ISO/TS 15066 contact limits. Verification pending.
+
+## Article VII: Optional Biomimetic Safety Layers
+
+**Purpose:** Scalable prosthetic safety inspired by biological reflexes and tactile awareness. Tier 1 is mandatory. Higher tiers are optional upgrades.
+
+| Tier | Status | Safety Layer | Requirement |
+|---|---|---|---|
+| **Tier 1** | Mandatory | 60N hardware cap + Limp Mode | Required for all units. |
+| **Tier 2** | Recommended | Contact detection | Contact sensing for user and environment interaction. |
+| **Tier 3** | Advanced | Proximity skin | Near-contact detection before physical impact. |
+| **Tier 4** | Research | Full artificial skin | Whole-limb tactile safety layer under research validation. |
+
+**Invariant:** Tier 1 is mandatory for all units. Higher tiers are optional.

@@ -1,7 +1,7 @@
 [project]
 name = "astro-ai-prosthetics"
-version = "8.1.5"
-description = "Safety-first scaffold for Astro AI Prosthetics with inspectable AI principles."
+version = "8.1.6"
+description = "Safety-first scaffold for Astro AI Prosthetics with inspectable AI principles and tiered biomimetic safety."
 readme = "README.md"
 requires-python = ">=3.11"
 authors = [{ name = "Justin Gracie" }]

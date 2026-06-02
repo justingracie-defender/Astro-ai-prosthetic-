@@ -1,13 +1,13 @@
 # Astro AI Prosthetics
 
-**Safe, high-performance AI-assisted prosthetic limbs and assistive devices.**
+**Safe, High-Performance AI-Assisted Prosthetic Limbs**
 
-**Version:** v8.1.5 — Lanier Principles Integration  
-**Safety License:** THE_ASTRO_LICENSE v8.1.5  
+**Version:** v8.1.6  
+**Safety License:** THE_ASTRO_LICENSE v8.1.6  
 **Author:** Justin Gracie, Kingston ON, Canada  
-**Governance:** LifeCore-16 Constitution v0.9.0, as developed in `prometheus-h`
+**Governance:** LifeCore-16 v0.9.2
 
-> **Philosophy:** Speed belongs to human intent. Safety belongs to immutable hardware limits. AI must show its work.  
+> **Philosophy:** Speed belongs to human intent. Safety belongs to hardware.  
 > **Core Promise:** Fast arms, safe faces. No slap. No lock-up. No mystery failures.
 
 Astro AI Prosthetics is a research repository for AI-assisted prosthetic limb and assistive-device control. It is intentionally separate from the `prometheus-h` home-robot repository because a human-worn prosthetic system has different physics, hazards, review requirements, and validation obligations than a mobile or household robot.
@@ -18,20 +18,23 @@ This repository is **experimental**. It is not a medical device, not a certified
 
 ## Vision
 
-Astro delivers natural-speed prosthetic control with conservative safety validation and inspectable AI. Inspired by Jaron Lanier's emphasis on human agency and accountability in digital systems, the project treats AI control as something that must be traceable, grounded in real data, and independently checkable before it can influence motion. Every motion profile should be tested in simulation, instrumented mannequin trials, environmental stress cases, and adversarial red-team scenarios before it ever touches a person.
+Astro delivers natural-speed prosthetic control with conservative safety validation, inspectable AI, and hardware-first safe failure. Inspired by Jaron Lanier's emphasis on human agency and accountability in digital systems, the project treats AI control as something that must be traceable, grounded in real data, and independently checkable before it can influence motion. Every motion profile should be tested in simulation, instrumented mannequin trials, environmental stress cases, and adversarial red-team scenarios before it ever touches a person.
 
 ## Key Features
+
+Key features include **60N hardware cap**, **Limp Mode**, **Lanier Principles (Article V)**, and **Tiered Biomimetic Safety (Article VII)**.
 
 | Feature | Design Intent |
 |---|---|
 | **EMG + AI hybrid control** | Use AI to assist intent interpretation while preserving deterministic safety gates. |
 | **Human veto path** | Keep human override outside model discretion and above ordinary control logic. |
-| **Hardware force cap target** | Treat force limiting as a hardware-enforced boundary, not a model promise. |
+| **60N hardware cap** | Treat force limiting as a hardware-enforced boundary, not a model promise. |
 | **Limp Mode on fault** | Prefer compliant safe failure over locked or rigid failure. |
 | **Daily self-test** | Require a short diagnostic and recalibration lockout before normal operation. |
 | **Environmental resilience testing** | Validate performance across Kingston-like cold, heat, humidity, vibration, and interference cases before real deployment. |
 | **Spine Ledger** | Preserve fault traces for replay, review, and accountability. |
 | **Lanier Principles** | Add traceable training influence, semantic grounding checks, and multi-factor safety review for non-routine motion. |
+| **Tiered Biomimetic Safety** | Require Tier 1 hardware safety for all units while allowing optional higher tiers for contact, proximity, and artificial-skin sensing. |
 
 ## Safety Governance
 
@@ -41,6 +44,8 @@ See [`THE_ASTRO_LICENSE.md`](THE_ASTRO_LICENSE.md) for the full constitutional s
 |---|---|
 | **Article IV** | Prosthetic validation and safe failure. |
 | **Article V** | Lanier Principles for inspectable AI. |
+| **Article VI** | Preliminary standards mapping. |
+| **Article VII** | Optional biomimetic safety layers. |
 
 ## Repository Structure
 
