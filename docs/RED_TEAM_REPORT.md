@@ -1,6 +1,6 @@
 # Red Team Report v8.1.4
 
-This document records initial adversarial scenarios for Astro Prosthetics. The current entries are planning examples until backed by actual test logs.
+This document records initial adversarial scenarios for Astro — AI Prosthetics. The current entries are planning examples until backed by actual test logs.
 
 | Scenario | Expected Safe Outcome | Status |
 |---|---|---|

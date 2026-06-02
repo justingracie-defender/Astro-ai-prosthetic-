@@ -3,7 +3,7 @@
 **Constitutional Safety Standard for Prosthetic and Assistive Devices**  
 **Governed by:** LifeCore-16 Constitution v0.9.0
 
-This document is a project safety standard and governance statement for Astro Prosthetics. It is not legal advice and should be reviewed by qualified counsel before being used as a formal software license.
+This document is a project safety standard and governance statement for Astro — AI Prosthetics. It is not legal advice and should be reviewed by qualified counsel before being used as a formal software license.
 
 ## Article IV: Prosthetic Validation and Safe Failure
 

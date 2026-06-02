@@ -1,4 +1,4 @@
-# Astro Prosthetics
+# Astro — AI Prosthetics
 
 **Safe, high-performance AI-assisted prosthetic limbs and assistive-device research.**
 
@@ -10,7 +10,7 @@
 > **Philosophy:** Speed belongs to human intent. Safety belongs to immutable hardware limits.  
 > **Core Promise:** Fast arms, safe faces. No slap. No lock-up. No mystery failures.
 
-Astro Prosthetics is a research repository for AI-assisted prosthetic limb and assistive-device control. It is intentionally separate from the `prometheus-h` home-robot repository because a human-worn prosthetic system has different physics, hazards, review requirements, and validation obligations than a mobile or household robot.
+Astro — AI Prosthetics is a research repository for AI-assisted prosthetic limb and assistive-device control. It is intentionally separate from the `prometheus-h` home-robot repository because a human-worn prosthetic system has different physics, hazards, review requirements, and validation obligations than a mobile or household robot.
 
 ## Safety Notice
 
@@ -35,7 +35,7 @@ Astro is designed around natural-speed prosthetic control with conservative safe
 ## Repository Structure
 
 ```text
-astro-prosthetics/
+astro-ai-prosthetics/
 ├── THE_ASTRO_LICENSE.md
 ├── docs/
 │   ├── RED_TEAM_REPORT.md

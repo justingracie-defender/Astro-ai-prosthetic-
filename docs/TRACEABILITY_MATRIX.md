@@ -1,4 +1,4 @@
-# Astro Prosthetics — Traceability Matrix v1.0
+# Astro — AI Prosthetics — Traceability Matrix v1.0
 
 This matrix maps early Astro safety requirements to implementation evidence. It is a planning artifact, not a claim of certification or regulatory clearance.
 

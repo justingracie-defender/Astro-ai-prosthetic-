@@ -1,4 +1,4 @@
-# Safety Case Summary — Astro Prosthetics v8.1.4
+# Safety Case Summary — Astro — AI Prosthetics v8.1.4
 
 **Top-Level Claim:** Astro should maintain safe operation under foreseeable research, simulation, and pre-human validation conditions when deterministic safety limits, human veto, hardware force limiting, and limp-mode behavior are correctly implemented.
 
