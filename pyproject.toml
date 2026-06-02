@@ -1,0 +1,12 @@
+[project]
+name = "astro-prosthetics"
+version = "8.1.4"
+description = "Safety-first scaffold for AI-assisted prosthetic limb research."
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [{ name = "Justin Gracie" }]
+dependencies = ["PyYAML>=6.0.0"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

@@ -1,0 +1,5 @@
+min_position_deg: -30.0
+max_position_deg: 90.0
+max_velocity_deg_s: 45.0
+max_torque_nm: 5.0
+min_confidence: 0.85
